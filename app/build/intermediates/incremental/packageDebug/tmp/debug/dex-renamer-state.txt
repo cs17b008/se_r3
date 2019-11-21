@@ -1,0 +1,7 @@
+#Tue Nov 19 17:27:22 IST 2019
+base.0=E\:\\btech\\5th sem\\se\\software project\\EplatDoc_2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=E\:\\btech\\5th sem\\se\\software project\\EplatDoc_2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

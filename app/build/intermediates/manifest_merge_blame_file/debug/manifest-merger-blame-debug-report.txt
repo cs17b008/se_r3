@@ -1,0 +1,211 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.eplatdoc_2"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:7:5-80
+12-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:8:5-67
+13-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:8:22-64
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:26:5-79
+17-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:26:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+18-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+20
+21    <application
+21-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:10:5-38:19
+22        android:name="com.example.eplatdoc_2.Myapp"
+22-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:11:9-30
+23        android:allowBackup="true"
+23-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:12:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.1] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333f0d9d4a1f85c204c46ee8a3138529\core-1.0.1\AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/icons8_plant_48"
+26-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:13:9-49
+27        android:label="@string/app_name"
+27-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:14:9-41
+28        android:supportsRtl="true"
+28-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:15:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:16:9-40
+31        <activity android:name="com.example.eplatdoc_2.signup" />
+31-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:17:9-44
+31-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:17:19-41
+32        <activity
+32-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:18:9-26:20
+33            android:name="com.example.eplatdoc_2.MainActivity"
+33-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:19:13-41
+34            android:screenOrientation="portrait" >
+34-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:20:13-49
+35            <intent-filter>
+35-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:21:13-25:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:22:17-69
+36-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:22:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:24:17-77
+38-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:24:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.example.eplatdoc_2.upload" />
+41-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:27:9-43
+41-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:27:19-41
+42        <activity
+42-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:28:9-30:59
+43            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+43-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:29:13-76
+44            android:theme="@style/Base.Theme.AppCompat" />
+44-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:30:13-56
+45        <activity
+45-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:31:9-33:52
+46            android:name="com.example.eplatdoc_2.ABC"
+46-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:32:13-32
+47            android:screenOrientation="portrait" />
+47-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:33:13-49
+48
+49        <meta-data
+49-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:35:9-37:37
+50            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+50-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:36:13-70
+51            android:value="label" />
+51-->E:\btech\5th sem\se\software project\EplatDoc_2\app\src\main\AndroidManifest.xml:37:13-34
+52
+53        <activity
+53-->[com.karumi:dexter:5.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\bb6d4c975c0a9aa8a7636f32a1120c0d\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+54            android:name="com.karumi.dexter.DexterActivity"
+54-->[com.karumi:dexter:5.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\bb6d4c975c0a9aa8a7636f32a1120c0d\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+55            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+55-->[com.karumi:dexter:5.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\bb6d4c975c0a9aa8a7636f32a1120c0d\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+56
+57        <service
+57-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:31:13-84
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\4ea54615e3cba90234e00fa6b8ba4f00\firebase-common-19.1.0\AndroidManifest.xml:14:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:32:13-37
+61            <meta-data
+61-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+62                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+62-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+65-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\809f974a5004d6022e34015e48c88083\firebase-ml-vision-24.0.0\AndroidManifest.xml:12:13-14:85
+68                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+68-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\809f974a5004d6022e34015e48c88083\firebase-ml-vision-24.0.0\AndroidManifest.xml:13:17-108
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\809f974a5004d6022e34015e48c88083\firebase-ml-vision-24.0.0\AndroidManifest.xml:14:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-ml-common:22.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\89192f96beb491ad104a7f703ed8ab60\firebase-ml-common-22.0.0\AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+71-->[com.google.firebase:firebase-ml-common:22.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\89192f96beb491ad104a7f703ed8ab60\firebase-ml-common-22.0.0\AndroidManifest.xml:12:17-117
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-ml-common:22.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\89192f96beb491ad104a7f703ed8ab60\firebase-ml-common-22.0.0\AndroidManifest.xml:13:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+74                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+74-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+76        </service>
+77
+78        <activity
+78-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+79            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+79-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+80            android:excludeFromRecents="true"
+80-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+81            android:exported="true"
+81-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+82            android:launchMode="singleTask"
+82-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+83            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+83-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+85
+86        <receiver
+86-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+87            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+87-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+88            android:exported="true"
+88-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+89            android:permission="com.google.android.c2dm.permission.SEND" >
+89-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+90            <intent-filter>
+90-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+91                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+91-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+91-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+92            </intent-filter>
+93        </receiver>
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\cfafb781a345d3f54848aefef9b2f0c0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\cfafb781a345d3f54848aefef9b2f0c0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\cfafb781a345d3f54848aefef9b2f0c0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\cfafb781a345d3f54848aefef9b2f0c0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+99
+100        <provider
+100-->[com.google.firebase:firebase-common:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\4ea54615e3cba90234e00fa6b8ba4f00\firebase-common-19.1.0\AndroidManifest.xml:17:9-21:39
+101            android:name="com.google.firebase.provider.FirebaseInitProvider"
+101-->[com.google.firebase:firebase-common:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\4ea54615e3cba90234e00fa6b8ba4f00\firebase-common-19.1.0\AndroidManifest.xml:18:13-77
+102            android:authorities="com.example.eplatdoc_2.firebaseinitprovider"
+102-->[com.google.firebase:firebase-common:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\4ea54615e3cba90234e00fa6b8ba4f00\firebase-common-19.1.0\AndroidManifest.xml:19:13-72
+103            android:exported="false"
+103-->[com.google.firebase:firebase-common:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\4ea54615e3cba90234e00fa6b8ba4f00\firebase-common-19.1.0\AndroidManifest.xml:20:13-37
+104            android:initOrder="100" />
+104-->[com.google.firebase:firebase-common:19.1.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\4ea54615e3cba90234e00fa6b8ba4f00\firebase-common-19.1.0\AndroidManifest.xml:21:13-36
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\f6890fad35ff213d3ddb047eb34764bd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\f6890fad35ff213d3ddb047eb34764bd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\f6890fad35ff213d3ddb047eb34764bd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+109
+110        <provider
+110-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\d51ef79d5bed4b462622d5a2c6633dfb\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+111            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+111-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\d51ef79d5bed4b462622d5a2c6633dfb\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+112            android:authorities="com.example.eplatdoc_2.lifecycle-process"
+112-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\d51ef79d5bed4b462622d5a2c6633dfb\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+113            android:exported="false"
+113-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\d51ef79d5bed4b462622d5a2c6633dfb\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+114            android:multiprocess="true" />
+114-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LATHWAL\.gradle\caches\transforms-2\files-2.1\d51ef79d5bed4b462622d5a2c6633dfb\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+115    </application>
+116
+117</manifest>

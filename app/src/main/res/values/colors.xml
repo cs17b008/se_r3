@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="blue_rate">#6392FF</color>
+    <color name="gold_rate">#E0D8BA</color>
+    <color name="star_rate">#3B59A5</color>
+    <color name="color1">#50504E</color>
+    <color name="color2">#A46A92E2</color>
+    <color name="color3">#2A0022FF</color>
+    <color name="warning_color">#f4511e</color>
+    <color name="hint_color">#42000000</color>
+    <color name="success_color">#009688</color>
+    <color name="c">#EEEEEE</color>
+    <color name="c1">#F44336</color>
+    <color name="c2">#E91E63</color>
+    <color name="c3">#9C27B0</color>
+    <color name="c4">#673AB7</color>
+    <color name="c5">#3F51B5</color>
+    <color name="c6">#2196F3</color>
+    <color name="c7">#03A9F4</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+    <color name="c8">#00BCD4</color>
+    <color name="c9">#009688</color>
+    <color name="c10">#4CAF50</color>
+    <color name="c11">#8BC34A</color>
+    <color name="c12">#CDDC39</color>
+    <color name="c13">#FFEB3B</color>
+    <color name="c14">#FFC107</color>
+    <color name="c15">#FF9800</color>
+    <color name="c16">#FF5722</color>
+    <color name="c17">#795548</color>
+    <color name="c18">#9E9E9E</color>
+    <color name="c19">#607D8B</color>
+
+    <color name="color_green">#69F0AE</color>
+    <color name="color_blue">#81D4FA</color>
+    <color name="color_rose">#F48FB1</color>
+    <color name="color_yellow">#FFED4C</color>
+    <color name="c20">#7ddf64</color>
+    <color name="c21">#409807</color>
+
+
+    <color name="card_green">
+        #76ff03
+    </color>
+
+    <color name="card_red">#F44336</color>
+    <color name="background">#ECF0F1</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="red">#F44336</color>
+    <color name="orange">#ffb067</color>
+    <color name="green">#67ffae</color>
+    <color name="blue">#6785ff</color>
+    <color name="blue1">#4D87DB</color>
+    <color name="grey">@android:color/darker_gray</color>
+    <color name="transparent_black_percent_60">#6785ff</color>
+    <color name="transparent_black_hex_1">#fff</color>
+    <color name="transparent_black_hex_2">#fff</color>
+    <color name="transparent_black_hex_3">#fff</color>
+    <color name="transparent_black_hex_4">#fff</color>
+    <color name="transparent_black_hex_5">#fff</color>
+    <color name="transparent_black_hex_6">#fff</color>
+    <color name="transparent_black_hex_7">#fff</color>
+    <color name="transparent_black_hex_8">#fff</color>
+    <color name="transparent_black_hex_9">#fff</color>
+    <color name="transparent_black_hex_10">#fff</color>
+    <color name="transparent_black_hex_11">#fff</color>
+    <color name="transparent_black_hex_12">#fff</color>
+    <color name="transparent_black_hex_13">#fff</color>
+    <color name="transparent_black_hex_14">#fff</color>
+    <color name="transparent_black_hex_15">#fff</color>
+
+    <color name="transparent_black_percent_5">#fff</color>
+    <color name="transparent_black_percent_10">#fff</color>
+    <color name="transparent_black_percent_15">#fff</color>
+    <color name="transparent_black_percent_20">#fff</color>
+    <color name="transparent_black_percent_25">#fff</color>
+    <color name="transparent_black_percent_30">#fff</color>
+    <color name="transparent_black_percent_35">#fff</color>
+    <color name="transparent_black_percent_40">#fff</color>
+    <color name="transparent_black_percent_45">#fff</color>
+    <color name="transparent_black_percent_50">#fff</color>
+    <color name="transparent_black_percent_55">#fff</color>
+    <color name="transparent_black_percent_65">#fff</color>
+    <color name="transparent_black_percent_70">#fff</color>
+    <color name="transparent_black_percent_75">#fff</color>
+    <color name="transparent_black_percent_80">#fff</color>
+    <color name="transparent_black_percent_85">#fff</color>
+    <color name="transparent_black_percent_90">#fff</color>
+    <color name="transparent_black_percent_95">#fff</color>
+
+    <color name="bottom_nav_icons">#DADBDE</color>
+    <color name="bottom_nav_thick">#373738</color>
+
+    <!-- White Transparent -->
+    <color name="transparent_white_hex_1">#ffffff</color>
+    <color name="transparent_white_hex_2">#ffffff</color>
+    <color name="transparent_white_hex_3">#ffffff</color>
+    <color name="transparent_white_hex_4">#ffffff</color>
+    <color name="transparent_white_hex_5">#ffffff</color>
+    <color name="transparent_white_hex_6">#ffffff</color>
+    <color name="transparent_white_hex_7">#ffffff</color>
+    <color name="transparent_white_hex_8">#ffffff</color>
+    <color name="transparent_white_hex_9">#ffffff</color>
+    <color name="transparent_white_hex_10">#ffffff</color>
+    <color name="transparent_white_hex_11">#ffffff</color>
+    <color name="transparent_white_hex_12">#ffffff</color>
+    <color name="transparent_white_hex_13">#ffffff</color>
+    <color name="transparent_white_hex_14">#ffffff</color>
+    <color name="transparent_white_hex_15">#ffffffff</color>
+
+    <color name="white">#ffffff</color>
+    <color name="bg_gradient_start">#ff6767</color>
+    <color name="bg_gradient_end">#000</color>
+    <color name="pure_black">#000000</color>
+
+    <color name="AppDark">#000000</color>
+    <color name="AppLight">#fff</color>
+
+    <color name="grey_G">#DADCE0</color>
+    <color name="back">#F9F9F9</color>
+    <color name="cement_G">#B4B7B9</color>
+    <color name="Blue_G">#3B78E7</color>
+    <color name="Hint_G">#71767b</color>
+    <color name="rate_blue">#4651B9</color>
+    <color name="rate_blue_inside">#FCFCFC</color>
+
+    <color name="rate_w_blue">#E6EEF2</color>
+    <color name="rate_w_write">#026CA7</color>
+</resources>

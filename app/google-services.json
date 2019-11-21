@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "866252443107",
+    "firebase_url": "https://eplantdoc-2.firebaseio.com",
+    "project_id": "eplantdoc-2",
+    "storage_bucket": "eplantdoc-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866252443107:android:2d7e9785a3f2581e97a4d6",
+        "android_client_info": {
+          "package_name": "com.example.eplatdoc_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866252443107-p7jtckh6n9s8bst47o3e97qp5389hov7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2qUwsVXVNhQNisGN3BkdMBy8Ngpjvw0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866252443107-p7jtckh6n9s8bst47o3e97qp5389hov7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
